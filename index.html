@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+<!-- Bootstrap core CSS -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<!-- Material Design Bootstrap -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <!--Main Navigation-->
+  <header>
+<section class="container">
+    <h1>Form</h1>
+    <h4><strong>1.what dental problem you're currently facing?</strong></h4>
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Default input -->
+            <label for="exampleForm2">Default input</label>
+            <input type="text" id="exampleForm2" class="form-control">
+        </div>
+    </div>
+    <h4><strong>2.since how long are you facing the problem?</strong></h4>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="browser-default custom-select">
+                <option selected>select</option>
+                <option value="1">One week</option>
+                <option value="2">more than two weeks</option>
+              </select>
+        </div>
+    </div>
+    <h4><strong>3.how frequently are you facing dental problems?</strong></h4>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="browser-default custom-select">
+                <option selected>select</option>
+                <option value="1">often</option>
+                <option value="2">regularly</option>
+                <option value="2">sometimes</option>
+              </select>
+        </div>
+    </div>
+    <h4><strong>4.have you taken any treatment for the problem?</strong></h4>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="browser-default custom-select">
+                <option selected>select</option>
+                <option value="1">
+                    Yes- tell us about it
+                </option>
+                <option value="2">No</option>
+              </select>
+              <input type="text" id="exampleForm2" placeholder="if yes,write" class="form-control my-2">
+        </div>
+    </div>
+    <h4><strong>5.Are you under any medications?</strong></h4>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="browser-default custom-select">
+                <option selected>select</option>
+                <option value="1">
+                    Yes- tell us about it
+                </option>
+                <option value="2">No</option>
+              </select>
+              <input type="text" id="exampleForm2" placeholder="if yes,write" class="form-control my-2">
+        </div>
+    </div>
+    <h4><strong>6.Have you been hospitalized/operated?</strong></h4>
+    <div class="row">
+        <div class="col-md-6">
+            <select class="browser-default custom-select">
+                <option selected>select</option>
+                <option value="1">
+                    Yes
+                </option>
+                <option value="2">No</option>
+              </select>
+        </div>
+    </div>
+    <h4><strong>7.Do you have any of the below ?</strong></h4>
+    <div class="row">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check1" >
+                <label class="custom-control-label" for="check1">Blood pressure</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check2">
+                <label class="custom-control-label" for="check2">Asthma</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check3" >
+                <label class="custom-control-label" for="check3">Gastritis</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check4" >
+                <label class="custom-control-label" for="check4">Neural</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check5">
+                <label class="custom-control-label" for="check5">Hepatic (liver)</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check5">
+                <label class="custom-control-label" for="check5">Renal (kidney problems)</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check5">
+                <label class="custom-control-label" for="check5">Diabetes</label>
+              </div>
+            </li>
+            <li class="list-group-item">
+              <!-- Default checked -->
+              <div class="custom-control custom-checkbox">
+                <input type="checkbox" class="custom-control-input" id="check5">
+                <label class="custom-control-label" for="check5">Allergy</label>
+              </div>
+            </li>
+          </ul>
+    </div>
+    <h4><strong>Upload pictures as instructed</strong></h4>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="input-group">
+                
+                <div class="custom-file">
+                  <input type="file" class="custom-file-input" id="inputGroupFile01"
+                    aria-describedby="inputGroupFileAddon01">
+                  <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                </div>
+              </div>
+        </div>
+    </div>
+    <hr>
+   
+    <h1>Report generated by dentist:</h1>
+    <h4><strong>Patient name: </strong>Sample Name</h4>
+    <h4><strong>Age: </strong>22</h4>
+    <h4><strong>Gender: </strong>Male</h4>
+    <h4><strong>Medical history: </strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque officiis illo velit ipsam ex quibusdam? Name</h4>
+    <h4><strong>Dental history: </strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsa, temporibus voluptatem! Voluptas velit earum culpa!</h4>
+    <h4><strong>stains: </strong>++</h4>
+    
+    <h4><strong>Calculus: </strong>+++</h4>
+    
+    <h4><strong>1)Gum health:</strong></h4>
+    <h4>a. Gingivitis (present/absent): <strong>present</strong></h4>
+    <h4>b. Oral hygiene (good/excellent/fair/poor): <strong>fair</strong></h4>
+    <h4>c. Gum recession (absent/class1/2/3/4): <strong>class 2</strong></h4>
+    
+    <h4><strong>2)Teeth health:</strong></h4>
+    <h4>a)Tooth decay: <strong>absent</strong></h4>
+    
+    <h4>b)Root stumps: <strong>Same</strong> </h4>
+    <h4>c)Tooth wear (absent,attrition,abrasion,abfraction,erosion): <strong>absent</strong></h4>
+    
+    <h4>d)Any missing tooth: <strong>none</strong></h4>
+    
+    <h4>e) Any non vital tooth: <strong>none</strong></h4>
+    
+    <h4><strong>3) Teeth alignment:</strong></h4>
+    <h4>a) Crowding : absent</h4>
+    <h4>a) Spacing : present w.r.t <strong>lower anterior</strong> </h4>
+    <h4><strong>Please mention if any other emergency finding: </strong></h4>
+    <h4>No Emergency Finding</h4>
+    <h4><strong>Diagnosis: </strong></h4>
+    <h4>Generalized mild chronic Gingivitis</h4>
+    <h4><strong>Treatment plan: </strong></h4>
+    <h4>a)PREVENTIVE MEASURES:</h4>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <h4>b)PRECAUTIONS:</h4>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur.</li>
+        <li>Lorem, ipsum dolor.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+    </ul>
+    <h4>c)PATIENT REFERRAL:</h4>
+    <ul>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, illum perferendis. Suscipit, eligendi nisi explicabo velit earum aperiam. Deleniti, suscipit?</li>
+    </ul>
+    <br>
+    <br>
+    <br>
+    <h3><strong>Dr. name : <br></strong>Dr.Nivedita Tiwari</h3>
+    <h3><strong>Reg id: </strong>sdkhgc</h3>
+</section>
+<!-- Default form contact -->
+
+<!-- Default form contact -->
+
+<br>
+<br>
+<br>
+
+
+
+
+
+
+
+</body>
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+</html>
