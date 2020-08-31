@@ -13,6 +13,18 @@ body{
 #bodyx{
     background: rgba(90, 203, 255, 0.1);
 }
+#darkest{
+    color: rgb(0, 51, 71);
+}
+#darker{
+    color: rgb(2, 118, 153);
+}
+#dark{
+    color: rgba(2, 118, 153, 0.65);
+}
+#finding{
+    background: rgb(0, 51, 71);
+}
 #stain{
     background: rgba(255, 255, 255, 0.1);
     float: right;
@@ -21,6 +33,10 @@ body{
     border-radius: 15px;
     background: rgba(255, 255, 255, 0.85);
 }
+#sec2{
+    border-radius: 15px;
+    background: rgba(90, 203, 255, 0.1);
+}
 #bold{
     font-weight: 700;
 }
@@ -28,5 +44,5 @@ body{
     color: rgb(140, 0, 255);
 }
 #poa{
-    color: rgb(15, 100, 100);
+    color: rgb(0, 0, 0);
 }
