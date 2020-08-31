@@ -1,3 +1,11 @@
 #bodyx{
-    background: rgba(97, 160, 255, 0.267);
+    background: rgba(90, 203, 255, 0.267);
+}
+#stain{
+    background: rgba(255, 255, 255, 0.1);
+    
+}
+#sec{
+    border: solid 2px rgba(0, 129, 168, 0.384);
+    border-radius: 15px;
 }
