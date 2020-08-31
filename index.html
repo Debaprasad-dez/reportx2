@@ -18,16 +18,16 @@
 
   <!--Main Navigation-->
 <header>
-<section class="container my-5 pt-2 rounded-lg" id="bodyx">
+<section class="container my-5 pt-5 pb-2 rounded-lg" id="bodyx">
     
    
     <h1>Medical report</h1>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h4><i class="fa fa-user" aria-hidden="true"></i><strong> Patient name: </strong>Sample Name</h4>
-      <h4><i class="fa fa-birthday-cake" aria-hidden="true"></i><strong> Age: </strong>22</h4>
-      <h4><i class="fa fa-venus-mars" aria-hidden="true"></i><strong> Gender: </strong>Male</h4>
-      <h4> <i class="fa fa-history" aria-hidden="true"></i><strong> Medical history: </strong>long text</h4>
-      <h4> <i class="fa fa-history" aria-hidden="true"></i><strong> Dental history: </strong>long text</h4>     
+    <div id="sec" class="my-3 p-4 sdsd">
+      <h4><strong style="color: rgb(140, 0, 255);"> Name <br></strong>Sample Name</h4>
+      <h4><strong style="color: rgb(7, 219, 0);"> Age <br></strong>22</h4>
+      <h4><strong style="color: rgb(7, 219, 0);"> Gender <br></strong>Male</h4>
+      <h4><strong style="color: rgb(7, 219, 0);">Medical history <br></strong>long text</h4>
+      <h4><strong style="color: rgb(7, 219, 0);"> Dental history <br></strong>long text</h4>     
     </div>
     <div class="row">
       <div class="col-md-3"><img class="w-100 rounded-lg mb-4" src="https://images.unsplash.com/photo-1573203425066-c8a62c0fa1fd?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt=""></div> 
@@ -36,8 +36,8 @@
       <div class="col-md-3">
           <h1>Findings</h1>
           <hr>
-          <h4 class="w-75 bg-dark rounded-lg p-2 text-white">stain <span id="stain" class="rounded-lg p-1 px-2">+ + +</span></h4>
-          <h4 class="w-75 bg-dark rounded-lg p-2 text-white">calculus <span id="stain" class="rounded-lg p-1 px-2">+</span></h4>
+          <h4 class="w-75 bg-dark rounded-lg p-2 text-white">stain <span id="stain" class="rounded-lg  px-2">+ + +</span></h4>
+          <h4 class="w-75 bg-dark rounded-lg p-2 text-white">calculus <span id="stain" class="rounded-lg  px-2">+</span></h4>
         
         
         
@@ -46,64 +46,79 @@
     </div>
     
 
-
-    <div id="sec" class="my-3 p-4 bg-white">
-      <h2><strong>Gum health</strong></h2>
-      <h4>a. Gingivitis (present/absent): <strong>present</strong></h4>
-      <h4>b. Oral hygiene (good/excellent/fair/poor): <strong>fair</strong></h4>
-      <h4>c. Gum recession (absent/class1/2/3/4): <strong>class 2</strong></h4>
+<div class="row">
+  <div class="col-md-6">
+    <div id="sec" class="my-3 p-4 ">
+      <h2 class="mb-3"><strong class="text-default">Gum health</strong></h2>
+      <h4 class="mb-3" id="purple">Gingivitis (present/absent): <br><strong id="poa"><h2>present</h2></strong></h4>
+      <h4 class="mb-3" id="purple">Oral hygiene (good/ excellent/ fair/ poor): <br><strong id="poa"><h2>fair</h2></strong></h4>
+      <h4 class="mb-3" id="purple">Gum recession (absent /class1 /2 /3 /4 ): <br><strong id="poa"><h2>class 2</h2></strong></h4>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h2><strong>Teeth health</strong></h2>
-      <h4>a)Tooth decay: <strong>absent</strong></h4>
-      
-      <h4>b)Root stumps: <strong>Same</strong> </h4>
-      <h4>c)Tooth wear (absent, attrition, abrasion, abfraction, erosion): <strong>absent</strong></h4>
-      
-      <h4>d)Any missing tooth: <strong>none</strong></h4>
-      
-      <h4>e) Any non vital tooth: <strong>none</strong></h4>
+  </div>
+  
+  <div class="col-md-6">
+    <div id="sec" class="my-3 p-4 text-center">
+      <h3 class="text-center">Did You Know?</h3>
+      <img class="w-25 mx-auto" src="https://images.vexels.com/media/users/3/157970/isolated/preview/c156b4270aea292b9b335dd463ea17eb-earth-planet-icon-earth-icon-by-vexels.png" alt="">
+      <h4 class="text-center my-4 p-auto">50% of world's population suffers from oral diseases (WHO)</h4>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h2><strong>Teeth alignment:</strong></h2>
-      <h4>a) Crowding : absent</h4>
-      <h4>a) Spacing : present w.r.t <strong>lower anterior</strong> </h4>
+  </div>
+</div>
+  
+    
+    <div id="sec" class="my-3 p-4  ">
+      <h2><strong class="text-default">Teeth health</strong></h2>
+      <h4>a)Tooth decay: <strong id="bold">absent</strong></h4>
+      
+      <h4>b)Root stumps: <strong id="bold">Same</strong> </h4>
+      <h4>c)Tooth wear (absent, attrition, abrasion, abfraction, erosion): <strong id="bold">absent</strong></h4>
+      
+      <h4>d)Any missing tooth: <strong id="bold">none</strong></h4>
+      
+      <h4>e) Any non vital tooth: <strong id="bold">none</strong></h4>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h2><i class="fa fa-search" aria-hidden="true"></i><strong> Please mention if any other emergency finding: </strong></h2>
+    <div id="sec" class="my-3 p-4  ">
+      <h2><strong class="text-default">Teeth alignment:</strong></h2>
+      <h4>a) Crowding : <strong id="bold">absent</strong> </h4>
+      <h4>a) Spacing : <strong id="bold">present</strong>  w.r.t <strong id="bold">lower anterior</strong> </h4>
+    </div>
+    <div id="sec" class="my-3 p-4  ">
+      <h2><i class="fa fa-search text-default" aria-hidden="true"></i><strong class="text-default"> Please mention if any other emergency finding: </strong></h2>
       <h4>No Emergency Finding</h4>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h2><i class="fa fa-plus-circle" aria-hidden="true"></i><strong> Diagnosis: </strong></h2>
+    <div id="sec" class="my-3 p-4  ">
+      <h2><i class="fa fa-plus-circle text-default" aria-hidden="true"></i><strong class="text-default"> Diagnosis: </strong></h2>
       <h4>Generalized mild chronic Gingivitis</h4>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h2><i class="fa fa-medkit" aria-hidden="true"></i><strong> Treatment plan: </strong></h2>
+    <div id="sec" class="my-3 p-4  ">
+      <h2><i class="fa fa-medkit text-default" aria-hidden="true"></i><strong class="text-default"> Treatment plan: </strong></h2>
       <h4><i style="color: rgb(7, 219, 0);" class="fa fa-angle-double-up" aria-hidden="true"></i> PREVENTIVE MEASURES:</h4>
       <ul>
-          <li>Lorem ipsum dolor sit amet consectetur.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
+          <h4 class="m-0 p-0"><strong>1.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+          <h4 class="m-0 p-0"><strong>2.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+          <h4 class="m-0 p-0"><strong>3.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+          <h4 class="m-0 p-0"><strong>4.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+         
       </ul>
       <h4><i style="color: rgb(255, 166, 0);" class="fa fa-angle-double-up" aria-hidden="true"></i> PRECAUTIONS:</h4>
       <ul>
-          <li>Lorem ipsum dolor sit amet consectetur.</li>
-          <li>Lorem, ipsum dolor.</li>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
-          <li>Lorem ipsum dolor sit amet.</li>
+        <h4 class="m-0 p-0"><strong>1.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+        <h4 class="m-0 p-0"><strong>2.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+        <h4 class="m-0 p-0"><strong>3.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
+        <h4 class="m-0 p-0"><strong>4.</strong> Lorem ipsum dolor sit amet consectetur.</h4>
       </ul>
       <h4><i style="color: red;" class="fa fa-heartbeat" aria-hidden="true"></i> PATIENT REFERRAL:</h4>
       <ul>
-          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, illum perferendis. Suscipit, eligendi nisi explicabo velit earum aperiam. Deleniti, suscipit?</li>
+        <h4 class="m-0 p-0">Lorem ipsum dolor sit amet consectetur.</h4>
+        
       </ul>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
-      <h2><strong><i class="fa fa-stethoscope" aria-hidden="true"></i>
+    <div id="sec" class="my-3 p-4  ">
+      <h2><strong class="text-default"><i class="fa fa-stethoscope" aria-hidden="true"></i>
       </i> Doctor Details  <br><br></strong >Dr.Nivedita Tiwari</h2>
       <h5><strong>Reg id: </strong>sdkhgc</h5>
     </div>
-    <div id="sec" class="my-3 p-4  bg-white">
+    <div id="sec" class="my-3 p-4  ">
       <div class="row">
         <div class="col-md-3">
           <img class="w-100 rounded-circle p-4" src="https://image.freepik.com/free-vector/cute-tooth-brushing-icon-illustration-dental-health-icon-concept-isolated-flat-cartoon-style_138676-1301.jpg" alt="">
@@ -130,12 +145,6 @@
     
     
 
-    
-
-    
-    <br>
-    <br>
-    <br>
 
 </section>
 <!-- Default form contact -->
