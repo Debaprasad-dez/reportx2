@@ -3,10 +3,10 @@ body{
     font-family: 'Nunito', sans-serif;
 }
 .sdsd{
-    border-right-width: 10px;
+    border-right-width: 5px;
     border-right-color: rgba(0, 189, 223, 0.87);
     border-right-style: solid;
-    border-left-width: 10px;
+    border-left-width: 5px;
     border-left-color: rgba(0, 189, 223, 0.87);
     border-left-style: solid;
 }
